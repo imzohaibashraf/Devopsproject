@@ -9,6 +9,3 @@ RUN unzip portfolio-perfect.zip
 RUN cp -rvf  html-freebie-portfolio-perfect-master/*  .
 CMD ["/usr/sbin/httpd", "-D",  "FOREGROUND"]
 EXPOSE 80
-
-
-html-freebie-portfolio-perfect-master 
